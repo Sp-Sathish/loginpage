@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/assign5-login.css">
+</head>
+<body>
+    <form  id="form1">
+    <div id="main_div">
+        <img src="https://wallpaperaccess.com/full/4893666.jpg" height="100%" width="100%" alt="image loading">
+          <div id="div1">
+        <div id="sec_div">
+            <button type="button" class="sec" id="button1" onclick="login()"> Log-in</button>
+            <button type="button" class="sec" id="button2" onclick="reg()">register</button>
+        </div>
+        <br>
+        <br>
+        <div id="login-div">
+            <br>
+            <label for="username">UserName:</label>
+            <input type="text" id="username" onblur="fun1()"><br>
+            <div class="error" id="error1"></div>
+            <br>
+            <label for="userpass">password:</label>
+            <input type="password" id="userpass" onblur="fun2()"><br>
+            <div class="error" id="error2"></div>
+            <br>
+            <button class="btn" type="submit" >Submit</button>
+            <br>
+            <br>
+        
+          </div>
+          </div>
+        </form>
+        <form id="form2">
+        <div id="second_div" >
+        <div id="div2" style=display:none;>
+            <br>
+            <label for="username" id="label1">UserName:</label>
+            <input type="text" id="username1" onblur="fun3()">
+            <div class="error" id="error3"></div><br>
+           
+            
+            <label for="username" id="label2">Student email:</label>
+            <input type="text" id="email" onblur="fun4()">
+            <div class="error" id="error4"></div><br>
+            
+          
+            <label for="userpass" id="label3">New password:</label>
+            <input type="password" id="password" onblur="fun5()">
+            <div class="error" id="error5"></div><br>
+        
+            <label for="userpass" id="label4">Confirm password:</label>
+            <input type="password" id="cpassword" onblur="fun6()">
+            <div class="error" id="error6"></div><br>
+            
+           
+            <button class="btn" type="submit">Register</button>
+            <br>
+  
+          </div>
+        </div>
+      </form>
+
+
+
+
+        <script src="../new/js/assign5-login.js"></script>
+</body>
+</html>
